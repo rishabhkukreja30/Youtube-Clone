@@ -8,7 +8,7 @@ const InputBox = () => {
         placeholder=" Search"
         className="border border-slate-400 rounded-l-full w-1/2 p-2"
       />
-      <button className="border border-slate-400 p-2 rounded-r-full bg-slate-50">
+      <button className="border border-slate-400 p-2 rounded-r-full bg-gray-100">
         Search
       </button>
     </div>
