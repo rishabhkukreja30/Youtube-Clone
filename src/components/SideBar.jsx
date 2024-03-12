@@ -2,13 +2,13 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const SideBar = () => {
-  const toggleMenu = useSelector((store) => store.app.isMenuOpen);
+  const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
 
-  if (toggleMenu) {
-    return null;
-  }
+  // if (toggleMenu) {
+  //   return null;
+  // }
 
-  return (
+  return !isMenuOpen ? null : (
     <div className="p-5 shadow-xl w-48 m-2">
       <ul>
         <li>Home</li>

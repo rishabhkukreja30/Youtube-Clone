@@ -1,5 +1,31 @@
 import React from "react";
+import Button from "./Button";
 
 export const ButtonList = () => {
-  return <div>ButtonList</div>;
+  const buttonList = [
+    "All",
+    "Gaming",
+    "Songs",
+    "Live",
+    "Soccer",
+    "Cooking",
+    "Cricket",
+    "US Open",
+    "Basketball",
+    "Formaula 1",
+    "Boxing",
+    "WWE",
+    "Comedy",
+    "Bollywood",
+    "IPL",
+    "News",
+  ];
+
+  return (
+    <div className="flex">
+      {buttonList.map((item) => (
+        <Button label={item} />
+      ))}
+    </div>
+  );
 };

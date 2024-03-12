@@ -1,7 +1,7 @@
 import React from "react";
 import InputBox from "./InputBox";
 import { useDispatch } from "react-redux";
-import { toggleMenu } from "./appSlice";
+import { toggleMenu } from "../utils/appSlice";
 
 const Header = () => {
   const dispatch = useDispatch();
