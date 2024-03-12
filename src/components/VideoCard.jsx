@@ -1,8 +1,6 @@
 import React from "react";
 
 const VideoCard = ({ info }) => {
-  console.log(info);
-
   if (!info) {
     return <div>Loading...</div>;
   }
