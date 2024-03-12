@@ -24,7 +24,7 @@ export const ButtonList = () => {
   return (
     <div className="flex">
       {buttonList.map((item) => (
-        <Button label={item} />
+        <Button key={item} label={item} />
       ))}
     </div>
   );
