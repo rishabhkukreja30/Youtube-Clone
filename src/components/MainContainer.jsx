@@ -1,6 +1,6 @@
 import React from "react";
 import { ButtonList } from "./ButtonList";
-import VideContainer from "./VideContainer";
+import VideContainer from "./VideoContainer";
 
 const MainContainer = () => {
   return (
